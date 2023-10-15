@@ -9,7 +9,7 @@
 body{
   width: 100%;
   height:830px;
-  background: linear-gradient(rgba(0,0,0,0.5), #252222), url(images/wrinkled-plastic-wrap-texture-black-wallpaper.jpg) no-repeat center center/cover;
+  background: linear-gradient(rgba(0,0,0,0.5), #252222), url(images/gaming-backgrounds-in-black-green-and-darkgrey_bemP5adD_upscaled.jpg) no-repeat center center/cover;
 }
 /*default styles*/
 img{
@@ -129,3 +129,6 @@ footer{
   padding: 15px;
   font-size: 30px;
 }
+
+/*footer's end*/
+
