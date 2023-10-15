@@ -9,7 +9,7 @@
 
 body{
   width: 100%;
-  height:1200px;
+  height:830px;
   background: url(images/wrinkled-plastic-wrap-texture-black-wallpaper.jpg) no-repeat center center/cover;
 }
 /*default styles*/
@@ -78,7 +78,7 @@ header .nav-bar ul li a:hover{
 
 .main-cont{
   width: 70%;
-  height: 1000px;
+  height: 700px;
   margin: 20px auto;
   display: grid;
 }
@@ -89,12 +89,16 @@ header .nav-bar ul li a:hover{
   flex-direction: column;
   align-items: flex-start;
   background: url(images/Team\ Clover-01.jpg) no-repeat center center/cover;
-  margin: 30px 0;
+  margin: 15px 0;
   box-shadow: 0 4px 4px 5px rgba(255, 255, 255, 0.096);
 }
 .card-text-style{
   padding: 10px;
   margin: 5px;
+}
+.letterspacing{
+  letter-spacing: 10px;
+  color:  rgba(128, 128, 128, 0.87);
 }
 .card-2{
   border-radius: 20px;
@@ -103,7 +107,7 @@ header .nav-bar ul li a:hover{
   flex-direction: column;
   align-items: flex-start;
   background: url(images/C-post.png)no-repeat center center/cover;
-  margin: 30px 0;
+  margin: 15px 0;
   box-shadow: 0 4px 4px 5px rgba(255, 255, 255, 0.096);
 }
 /*main's end*/
@@ -111,7 +115,7 @@ header .nav-bar ul li a:hover{
 /*footer-redes socioles*/
 footer{
   background-color: rgb(63, 161, 63);
-  height: 100px;
+  height: 120px;
 }
 .redes-sociales{
   display: flex;
