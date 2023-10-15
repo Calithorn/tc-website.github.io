@@ -58,6 +58,20 @@ header .nav-bar ul li a:hover{
   border-bottom: 1px solid white;
   transition: all 1s ease;
 }
+.store{
+  background-color: black;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0 auto;
+  
+}
+.store:hover{
+  background-color: black;
+  padding: 10px;
+  border-radius: 10px;
+  color: rgb(63, 161, 63);
+  transition: 0.6s ease;
+}
 /*header's end*/
 
 /*main content styles*/
@@ -92,6 +106,9 @@ header .nav-bar ul li a:hover{
   margin: 30px 0;
   box-shadow: 0 4px 4px 5px rgba(255, 255, 255, 0.096);
 }
+/*main's end*/
+
+/*footer-redes socioles*/
 footer{
   background-color: rgb(63, 161, 63);
   height: 100px;
