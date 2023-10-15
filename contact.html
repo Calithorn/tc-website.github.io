@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TC</title>
     <link rel="stylesheet" href="styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/fd2490635b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/fd2490635b.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -25,7 +25,29 @@
         </div>
       </header>
       <main>
-        
+        <div class="hero">
+          <form>
+            <div class="row">
+              <div class="input-group">
+                <input type="text" id="name" required>
+              <label for="name"><i class="fa-regular fa-user"></i> Nombre</label>
+              </div>
+              <div class="input-group">
+                <input type="text" id="number" required>
+              <label for="number"><i class="fa-solid fa-phone"></i> Numero de Contacto</label>
+              </div>
+            </div>
+            <div class="input-group">
+              <input type="email" id="email" required>
+            <label for="email"><i class="fa-regular fa-envelope"></i> Email</label>
+            </div>
+            <div class="input-group">
+              <textarea  id="message" required rows="8"></textarea>
+            <label for="message"><i class="fa-regular fa-message"></i> Mensaje</label>
+            </div>
+            <button type="submit">ENVIAR <i class="fa-regular fa-paper-plane"></i></button>
+          </form>
+        </div>
       </main>
       <footer>
         <div class="redes-sociales">
