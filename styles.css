@@ -9,7 +9,7 @@
 body{
   width: 100%;
   height:830px;
-  background: url(images/wrinkled-plastic-wrap-texture-black-wallpaper.jpg) no-repeat center center/cover;
+  background: linear-gradient(rgba(0,0,0,0.5), #252222), url(images/wrinkled-plastic-wrap-texture-black-wallpaper.jpg) no-repeat center center/cover;
 }
 /*default styles*/
 img{
@@ -134,7 +134,7 @@ footer{
 .hero{
   width: 100%;
   height:730px;
-  background-image: url(images/darkgreen\ background.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.8), #252222), url(images/darkgreen\ background.jpg);
   background-position: center;
   background-size: cover;
   display: flex;
