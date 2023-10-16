@@ -1,86 +1,95 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Bebas Neue', sans-serif;
-    color: white;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Bebas Neue', sans-serif;
+  color: white;
 
 }
-body{
+
+body {
   width: 100%;
-  height:830px;
-  background: linear-gradient(rgba(0,0,0,0.5), #252222), url(images/wrinkled-plastic-wrap-texture-black-wallpaper.jpg) no-repeat center center/cover;
+  height: 830px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), #252222), url(images/wrinkled-plastic-wrap-texture-black-wallpaper.jpg) no-repeat center center/cover;
 }
+
 /*default styles*/
-img{
+img {
   width: 80px;
 }
-a{
- text-decoration: none;
+
+a {
+  text-decoration: none;
 }
+
 /*header styles*/
-header{
+header {
   font-size: 1rem;
   letter-spacing: 5px;
   font-weight: 600;
   height: fit-content;
   background-color: rgb(63, 161, 63);
-  
+
 }
+
 /*menu styles*/
-.nav-bar{
+.nav-bar {
   width: 80%;
   margin: 0 auto;
   display: flex;
   justify-content: space-evenly;
-}
-header .nav-bar{
-  display: flex;
-  justify-content: space-between;
   align-items: center;
-
 }
-header .nav-bar ul{
+
+
+header .nav-bar ul {
   display: flex;
 }
-header .nav-bar ul li{
+
+header .nav-bar ul li {
   list-style: none;
-  margin: 0 40px; 
+  margin: 0 40px;
 }
-header .nav-bar ul li a{
+
+header .nav-bar ul li a {
   text-decoration: none;
-   color: white;
+  color: white;
 }
-header .nav-bar ul li a:hover{
+
+header .nav-bar ul li a:hover {
   color: black;
   border-bottom: 1px solid white;
   transition: all 1s ease;
 }
-.store{
+
+.store {
   background-color: black;
   padding: 10px;
   border-radius: 10px;
   margin: 0 auto;
-  
+
 }
-.store:hover{
-  background-color:white;
+
+.store:hover {
+  background-color: white;
   padding: 10px;
   border-radius: 10px;
   color: rgb(36, 35, 35);
   transition: 0.6s ease;
 }
+
 /*header's end*/
 
 /*main content styles*/
 
-.main-cont{
+.main-cont {
   width: 70%;
   height: 700px;
   margin: 20px auto;
   display: grid;
 }
-.card-1{
+
+.card-1 {
   border-radius: 20px;
   grid-template-columns: 1fr;
   display: flex;
@@ -90,21 +99,23 @@ header .nav-bar ul li a:hover{
   margin: 20px 0;
   box-shadow: 0 4px 4px 5px rgba(255, 255, 255, 0.096);
 }
-.card-text-style{
+
+.card-text-style {
   padding: 10px;
-  margin: 5px; 
+  margin: 5px;
 }
-.letterspacing{
+
+.letterspacing {
   letter-spacing: 10px;
-  
+
 }
-h2
-{
+
+h2 {
   position: relative;
-  color:   rgba(63, 161, 63, 0.89);
-  } 
-h2::before
-{
+  color: rgba(63, 161, 63, 0.89);
+}
+
+h2::before {
   content: attr(data-text);
   position: absolute;
   color: white;
@@ -112,20 +123,25 @@ h2::before
   overflow: hidden;
   white-space: nowrap;
   border-right: 0px solid white;
-  animation: animate 3s  forwards 1s;
-} 
-@keyframes animate
-{
-  0%,100%{
+  animation: animate 3s forwards;
+  filter: drop-shadow(0 0 10px white) drop-shadow(0 0 25px white);
+}
+
+@keyframes animate {
+
+  0%,
+  100% {
     width: 0;
   }
-  70%,90%{
-    
+
+  70%,
+  90% {
+
     width: 100%;
   }
 }
 
-.card-2{
+.card-2 {
   border-radius: 20px;
   grid-template-columns: 1fr;
   display: flex;
@@ -135,24 +151,28 @@ h2::before
   margin: 15px 0;
   box-shadow: 0 4px 4px 5px rgba(255, 255, 255, 0.096);
 }
+
 /*main's end*/
 
 /*footer-redes socioles*/
-footer{
+footer {
   background-color: rgb(63, 161, 63);
   height: 130px;
 }
-.redes-sociales{
+
+.redes-sociales {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.redes-sociales h3{
+
+.redes-sociales h3 {
   padding: 5px;
   letter-spacing: 5px;
   font-weight: 300;
 }
-.redes-sociales i{
+
+.redes-sociales i {
   padding: 15px;
   font-size: 30px;
 }
@@ -160,13 +180,43 @@ footer{
 /*footer's end*/
 
 /*academy video*/
-.video-main-cont{
+.video-main-cont {
   width: 80%;
   margin: 69px auto;
-  
+
 }
-.video iframe{
-  width: 100%; 
+
+.video iframe {
+  width: 100%;
   height: 600px;
 }
 
+/*responsive*/
+@media screen and (max-width: 600px) {
+ 
+  header {
+    letter-spacing: 2px;
+    font-weight: 400;
+    height: min-content;
+  }
+
+  .nav-bar {
+    width: 600px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  header .nav-bar ul li a {
+    font-size: 13px;
+  }
+  .main-cont {
+    width: 60%;
+    height: 600px;
+    margin: 25px auto;
+  }
+  .card-text-style {
+    padding: 5px;
+    margin: 3px;
+  }
+}
