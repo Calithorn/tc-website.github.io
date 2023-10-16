@@ -97,13 +97,14 @@ header .nav-bar ul li a:hover {
 .team-title {
     display: flex;
     justify-content: center;
-    margin: 90px auto;
-    margin-bottom: 100px;
+    
+    margin: 100px auto;
     letter-spacing: 10px;
 }
 
 .card-team {
-    margin: 130px 0;
+    margin-top: 100px;
+    margin-bottom: 180px;
     background-color: #252222;
     border-radius: 10px;
     box-shadow: 0 4px 4px 5px rgba(255, 255, 255, 0.096);
