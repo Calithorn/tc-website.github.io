@@ -141,7 +141,7 @@ textarea:valid~label {
 /*footer-redes socioles*/
 footer{
     background-color: rgb(63, 161, 63);
-    height: 120px;
+    height: 150px;
   }
   .redes-sociales{
     display: flex;
