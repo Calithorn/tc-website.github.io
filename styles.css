@@ -110,12 +110,12 @@ header .nav-bar ul li a:hover {
 
 }
 
-h2 {
+.ani-1 {
   position: relative;
   color: rgba(63, 161, 63, 0.89);
 }
 
-h2::before {
+.ani-1::before {
   content: attr(data-text);
   position: absolute;
   color: white;
@@ -123,14 +123,15 @@ h2::before {
   overflow: hidden;
   white-space: nowrap;
   border-right: 0px solid white;
-  animation: animate 3s forwards;
+  animation: animate 3s linear;
+  animation-delay: 0.3s;
   filter: drop-shadow(0 0 10px white) drop-shadow(0 0 25px white);
 }
-h3{
+.ani-2{
   position: relative;
   color: rgba(63, 161, 63, 0.89);
 }
-h3::before{
+.ani-2::before{
   content: attr(data-text);
   position: absolute;
   color: white;
@@ -138,8 +139,8 @@ h3::before{
   overflow: hidden;
   white-space: nowrap;
   border-right: 0px solid white;
-  animation: animate 3s forwards;
-  animation-delay: 0.7s;
+  animation: animate 3s linear;
+  animation-delay: 0.6s;
   filter: drop-shadow(0 0 10px white) drop-shadow(0 0 25px white);
 }
 
