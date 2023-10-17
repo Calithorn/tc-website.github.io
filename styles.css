@@ -139,7 +139,7 @@ h3::before{
   white-space: nowrap;
   border-right: 0px solid white;
   animation: animate 3s forwards;
-  animation-delay: 0.5s;
+  animation-delay: 0.7s;
   filter: drop-shadow(0 0 10px white) drop-shadow(0 0 25px white);
 }
 
