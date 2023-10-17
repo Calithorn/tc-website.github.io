@@ -9,7 +9,7 @@
 
 body {
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), #252222), url(images/wrinkled-plastic-wrap-texture-black-wallpaper.jpg) no-repeat center center/cover;
+  background: url(images/wrinkled-plastic-wrap-texture-black-wallpaper.jpg) no-repeat center center/cover;
 }
 
 /*default styles*/

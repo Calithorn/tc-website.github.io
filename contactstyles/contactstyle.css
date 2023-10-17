@@ -8,7 +8,10 @@
 }
 body {
     width: 100%;
-    background: url(gaming-backgrounds-in-black-green-and-darkgrey_bemP5adD_upscaled.jpg) center center/cover;
+    background: url(gaming-backgrounds-in-black-green-and-darkgrey_bemP5adD_upscaled.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /*default styles*/
 img {
