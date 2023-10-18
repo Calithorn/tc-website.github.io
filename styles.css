@@ -8,19 +8,16 @@
 }
 
 body {
-  width: auto;
   background: url(images/wrinkled-plastic-wrap-texture-black-wallpaper.jpg) no-repeat center center/cover;
+  min-width: 550px;
 }
-
 /*default styles*/
 img {
   width: 80px;
 }
-
 a {
   text-decoration: none;
 }
-
 /*header styles*/
 header {
   font-size: 1rem;
@@ -28,9 +25,7 @@ header {
   font-weight: 600;
   height: fit-content;
   background-color: rgb(63, 161, 63);
-
 }
-
 /*menu styles*/
 .nav-bar {
   width: 80%;
@@ -39,17 +34,13 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-
-
 header .nav-bar ul {
   display: flex;
 }
-
 header .nav-bar ul li {
   list-style: none;
-  margin: 0 40px;
+  margin: 0 10px;
 }
-
 header .nav-bar ul li a {
   text-decoration: none;
   color: white;
@@ -126,11 +117,13 @@ header .nav-bar ul li a:hover {
   animation-delay: 0.3s;
   filter: drop-shadow(0 0 10px white) drop-shadow(0 0 25px white);
 }
-.ani-2{
+
+.ani-2 {
   position: relative;
   color: rgba(63, 161, 63, 0.89);
 }
-.ani-2::before{
+
+.ani-2::before {
   content: attr(data-text);
   position: absolute;
   color: white;

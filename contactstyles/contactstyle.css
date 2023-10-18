@@ -6,20 +6,24 @@
     color: white;
 
 }
+
 body {
-    width: 100%;
     background: url(gaming-backgrounds-in-black-green-and-darkgrey_bemP5adD_upscaled.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    min-width: 550px;
 }
+
 /*default styles*/
 img {
     width: 80px;
 }
+
 a {
     text-decoration: none;
 }
+
 /*header styles*/
 header {
     font-size: 1rem;
@@ -29,6 +33,7 @@ header {
     background-color: rgb(63, 161, 63);
 
 }
+
 /*menu styles*/
 .nav-bar {
     width: 80%;
@@ -36,28 +41,35 @@ header {
     display: flex;
     justify-content: space-evenly;
 }
-header .nav-bar {
+
+.nav-bar {
+    width: 80%;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
+
 header .nav-bar ul {
     display: flex;
 }
+
 header .nav-bar ul li {
     list-style: none;
-    margin: 0 40px;
+    margin: 0 10px;
 }
+
 header .nav-bar ul li a {
     text-decoration: none;
     color: white;
 }
+
 header .nav-bar ul li a:hover {
     color: black;
     border-bottom: 1px solid white;
     transition: all 1s ease;
 }
+
 .store {
     background-color: black;
     padding: 10px;
@@ -65,6 +77,7 @@ header .nav-bar ul li a:hover {
     margin: 0 auto;
 
 }
+
 .store:hover {
     background-color: white;
     padding: 10px;
@@ -86,15 +99,18 @@ header .nav-bar ul li a:hover {
     align-items: flex-start;
     justify-content: center;
 }
+
 form {
     margin-top: 150px;
     width: 70%;
     max-width: 600px;
 }
+
 .input-group {
     margin-bottom: 30px;
     position: relative;
 }
+
 input,
 textarea {
     width: 100%;
@@ -105,6 +121,7 @@ textarea {
     background: transparent;
     font-size: 15px;
 }
+
 label {
     height: 100%;
     position: absolute;
@@ -115,6 +132,7 @@ label {
     cursor: text;
     transition: 0.2s;
 }
+
 button {
     padding: 10 px 0;
     color: white;
@@ -124,6 +142,7 @@ button {
     width: 100%;
     cursor: pointer;
 }
+
 input:focus~label,
 input:valid~label,
 textarea:focus~label,
@@ -131,31 +150,36 @@ textarea:valid~label {
     top: -35px;
     font-size: 14px;
 }
+
 .row {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .row .input-group {
     flex-basis: 48%;
 }
 
 /*footer-redes socioles*/
-footer{
+footer {
     background-color: rgb(63, 161, 63);
     height: 150px;
-  }
-  .redes-sociales{
+}
+
+.redes-sociales {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  .redes-sociales h3{
+}
+
+.redes-sociales h3 {
     padding: 5px;
     letter-spacing: 5px;
     font-weight: 300;
-  }
-  .redes-sociales i{
+}
+
+.redes-sociales i {
     padding: 15px;
     font-size: 30px;
-  }
+}
