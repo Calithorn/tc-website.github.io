@@ -8,7 +8,9 @@
 }
 
 body {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), #252222), url(darkgreen\ background.jpg) center center/cover;
+    background: linear-gradient( rgb(0, 0, 0), rgba(128, 128, 128, 0.151)), url(Valor\ background.jfif);
+    background-position: center;
+    background-size: cover;
     min-width: 550px;
 }
 /*default styles*/
@@ -73,9 +75,10 @@ header .nav-bar ul li a:hover {
 
 /*team members'cards*/
 .teams-main-cont {
-    width: 100%;
+    width: 80%;
+    margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, 30rem);
+    grid-template-columns: repeat(auto-fit, 25rem);
     gap: 30px;
     justify-content: center;
 }
@@ -97,18 +100,35 @@ header .nav-bar ul li a:hover {
     align-items: center;
     width: 100%;
     margin-bottom: 40px;
+    position: relative;
 }
-
-.card-team img {
+.card-team img{
     width: 80%;
-    padding: 5px;
+    display: block;
+    height: 300px;
+    margin: 10px 0;
     border-radius: 10px;
 }
-
-.card-team p {
-    text-align: center;
+.hidden-text{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.6);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    gap: 30px;
+    opacity: 0;
+    transition: 0.8s;
+    letter-spacing: 5px;
 }
-
+.hidden-text:hover{
+    opacity: 1;
+}
 /*footer-redes socioles*/
 footer {
     background-color: rgb(63, 161, 63);
