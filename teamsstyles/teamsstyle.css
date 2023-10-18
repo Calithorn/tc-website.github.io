@@ -75,7 +75,7 @@ header .nav-bar ul li a:hover {
 .teams-main-cont {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, 15rem);
+    grid-template-columns: repeat(auto-fit, 30rem);
     gap: 30px;
     justify-content: center;
 }
