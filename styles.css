@@ -8,7 +8,7 @@
 }
 
 body {
-  background: url(images/wrinkled-plastic-wrap-texture-black-wallpaper.jpg);
+  background: linear-gradient(rgb(0, 0, 0,0.5), rgba(0, 0, 0, 0.5)), url(images/wrinkled-plastic-wrap-texture-black-wallpaper.jpg);
   background-position: center;
   background-size: cover;
   min-width: 650px;
@@ -82,7 +82,7 @@ header .nav-bar ul li a:hover {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  background: url(images/Team\ Clover-01.jpg) no-repeat center center/cover;
+  background: linear-gradient(black, rgba(128, 128, 128, 0.007)), url(images/video-gaming-academy_2hzgrvkm_upscaled.jpg) no-repeat center center/cover;
   margin: 10px 50px;
   box-shadow: 0 4px 4px 5px rgba(255, 255, 255, 0.096);
 }
@@ -92,7 +92,7 @@ header .nav-bar ul li a:hover {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  background: url(images/image_UbERq_Qa_1697410864521_raw.jpg)no-repeat center center/cover;
+  background: linear-gradient(black, rgba(128, 128, 128, 0.007)), url(images/esports-team-playing-tournament_yqybOyOn_upscaled.jpg)no-repeat center center/cover;
   margin: 10px 50px;
   box-shadow: 0 4px 4px 5px rgba(255, 255, 255, 0.096);
 }
