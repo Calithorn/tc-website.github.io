@@ -32,53 +32,45 @@ header {
     font-weight: 600;
     height: fit-content;
     background-color: rgb(63, 161, 63);
-
-}
-
-/*menu styles*/
-.nav-bar {
+  }
+  /*menu styles*/
+  .nav-bar {
     width: 65%;
     margin: 0 auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-}
-
-header .nav-bar ul {
+  }
+  header .nav-bar ul {
     display: flex;
-}
-
-header .nav-bar ul li {
+  }
+  header .nav-bar ul li {
     list-style: none;
     margin: 0 10px;
-}
-
-header .nav-bar ul li a {
+  }
+  header .nav-bar ul li a {
     text-decoration: none;
     color: white;
-}
-
-header .nav-bar ul li a:hover {
+  }
+  header .nav-bar ul li a:hover {
     color: black;
     border-bottom: 1px solid white;
     transition: all 1s ease;
-}
-
-.store {
+  }
+  .store {
     background-color: black;
     padding: 10px;
     border-radius: 10px;
     margin: 0 auto;
-
-}
-
-.store:hover {
+  
+  }
+  .store:hover {
     background-color: white;
     padding: 10px;
     border-radius: 10px;
     color: rgb(36, 35, 35);
     transition: 0.6s ease;
-}
+  }
 
 /*header's end*/
 
