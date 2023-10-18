@@ -110,7 +110,7 @@ header .nav-bar ul li a:hover {
     position: absolute;
     top: 0;
     left: 0;
-    background: rgba(0,0,0,0.6);
+    background: rgba(0,0,0,0.9);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -120,9 +120,14 @@ header .nav-bar ul li a:hover {
     opacity: 0;
     transition: 0.8s;
     letter-spacing: 5px;
+    font-weight: bold;
+}
+.hidden-text h2, p{
+    color: rgb(149, 206, 149);
 }
 .hidden-text:hover{
     opacity: 1;
+    
 }
 /*footer-redes socioles*/
 footer {
