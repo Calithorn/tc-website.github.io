@@ -48,13 +48,11 @@ header .nav-bar ul li a {
     text-decoration: none;
     color: white;
 }
-
 header .nav-bar ul li a:hover {
     color: black;
     border-bottom: 1px solid white;
     transition: all 1s ease;
 }
-
 .store {
     background-color: black;
     padding: 10px;
@@ -62,7 +60,6 @@ header .nav-bar ul li a:hover {
     margin: 0 auto;
 
 }
-
 .store:hover {
     background-color: white;
     padding: 10px;
@@ -70,7 +67,6 @@ header .nav-bar ul li a:hover {
     color: rgb(36, 35, 35);
     transition: 0.6s ease;
 }
-
 /*header's end*/
 
 /*team members'cards*/
@@ -82,7 +78,6 @@ header .nav-bar ul li a:hover {
     gap: 30px;
     justify-content: center;
 }
-
 .team-title {
     display: flex;
     justify-content: center;
@@ -90,7 +85,6 @@ header .nav-bar ul li a:hover {
     margin: 50px auto;
     letter-spacing: 10px;
 }
-
 .card-team {
     background-color: #252222;
     border-radius: 10px;
