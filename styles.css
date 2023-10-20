@@ -86,7 +86,7 @@ header .nav-bar ul li a:hover {
 }
 .card-1 {
   border-radius: 20px;
-  grid-row: 1 / 2;
+  grid-row:2 / 3;
   grid-column: 1 / 4;
   display: flex;
   flex-direction: column;
@@ -97,7 +97,7 @@ header .nav-bar ul li a:hover {
 }
 .card-2 {
   border-radius: 20px;
-  grid-row: 2 / 3;
+  grid-row:  1 / 2;
   grid-column: 1 / 4;
   display: flex;
   flex-direction: column;
