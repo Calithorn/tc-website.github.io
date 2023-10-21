@@ -239,8 +239,6 @@ footer {
   .card-2 {
     grid-column: 1 / 5;
     grid-row: 1 / 2;
-    
-    display: flex;
   }
   .card-text-style {
     padding: 10px;
@@ -254,8 +252,12 @@ footer {
     width: 45%;
     height: 100%;
   }
+  .redes-sociales i {
+    padding: 10px;
+    font-size: 20px;
+  }
 }
-@media only screen and (max-width: 320px) 
+@media only screen and (max-width: 580px) 
 {
   body {
     max-height: 800px;
@@ -273,6 +275,38 @@ footer {
   .nav-bar {
     width: 90%;
   }
-  
-  
+  .main-cont {
+    height: auto;
+    grid-template-rows: repeat(3, 1fr);
+    
+  }
+  .card-1 {
+    grid-column: 1 / 5;
+    grid-row: 2 / 3;
+    font-size: 0.7rem;
+    
+  }
+  .card-2 {
+    grid-column: 1 / 5;
+    grid-row: 1 / 2;
+    font-size: 0.7rem;  
+  }
+  .card-text-style {
+    padding: 7px;
+    margin: 2px;
+  }
+  aside {
+    grid-column: 1 / 5;
+    grid-row: 3 / 4;
+    font-size: 0.7rem;
+  }
+  .imgs img {
+    width: 45%;
+    height: 100%;
+  }
+  .redes-sociales i {
+    padding: 10px;
+    font-size: 20px;
+  }
 }
+  
