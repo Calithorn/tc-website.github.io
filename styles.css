@@ -317,11 +317,9 @@ footer {
   header {
     font-size: 0.4rem;
     letter-spacing: 1px;
-    font-weight: 400;
-    background-color: rgb(63, 161, 63);
   }
   img {
-    width: 40px;
+    width: 30px;
   }
   /*menu styles*/
   .nav-bar {
@@ -335,13 +333,13 @@ footer {
   .card-1 {
     grid-column: 1 / 5;
     grid-row: 2 / 3;
-    font-size: 0.7rem;
+    font-size: 0.5rem;
     
   }
   .card-2 {
     grid-column: 1 / 5;
     grid-row: 1 / 2;
-    font-size: 0.7rem;  
+    font-size: 0.5rem;  
   }
   .card-text-style {
     padding: 7px;
@@ -350,7 +348,7 @@ footer {
   aside {
     grid-column: 1 / 5;
     grid-row: 3 / 4;
-    font-size: 0.7rem;
+    font-size: 0.5rem;
   }
   .imgs img {
     width: 45%;
