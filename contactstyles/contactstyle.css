@@ -1,171 +1,169 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Bebas Neue', sans-serif;
-    color: white;
-
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Bebas Neue", sans-serif;
+  color: white;
 }
 
 body {
-    background: url(gaming-backgrounds-in-black-green-and-darkgrey_bemP5adD_upscaled.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-width: 650px;
-    max-height: 820px;
+  background: url(gaming-backgrounds-in-black-green-and-darkgrey_bemP5adD_upscaled.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 650px;
+  max-height: 820px;
 }
 
 /*default styles*/
 img {
-    width: 80px;
+  width: 80px;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /*header styles*/
 header {
-    font-size: 1rem;
-    letter-spacing: 5px;
-    font-weight: 600;
-    height: fit-content;
-    background-color: rgb(63, 161, 63);
-  }
-  /*menu styles*/
-  .nav-bar {
-    width: 65%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  header .nav-bar ul {
-    display: flex;
-  }
-  header .nav-bar ul li {
-    list-style: none;
-    margin: 0 10px;
-  }
-  header .nav-bar ul li a {
-    text-decoration: none;
-    color: white;
-  }
-  header .nav-bar ul li a:hover {
-    color: black;
-    border-bottom: 1px solid white;
-    transition: all 1s ease;
-  }
-  .store {
-    background-color: black;
-    padding: 10px;
-    border-radius: 10px;
-    margin: 0 auto;
-  
-  }
-  .store:hover {
-    background-color: white;
-    padding: 10px;
-    border-radius: 10px;
-    color: rgb(36, 35, 35);
-    transition: 0.6s ease;
-  }
-
+  font-size: 1rem;
+  letter-spacing: 5px;
+  font-weight: 600;
+  height: fit-content;
+  background-color: rgb(63, 161, 63);
+}
+/*menu styles*/
+.nav-bar {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .nav-bar ul {
+  display: flex;
+}
+header .nav-bar ul li {
+  list-style: none;
+  margin: 0 10px;
+}
+header .nav-bar ul li a {
+  text-decoration: none;
+  color: white;
+}
+header .nav-bar ul li a:hover {
+  color: black;
+  border-bottom: 1px solid white;
+  transition: all 1s ease;
+}
+.store {
+  background-color: black;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+.store:hover {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  color: rgb(36, 35, 35);
+  transition: 0.6s ease;
+}
 /*header's end*/
 
 /*contact form*/
 .hero {
-    width: 100%;
-    height: 730px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), #252222), url(darkgreen\ background.jpg);
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
+  width: 100%;
+  height: 730px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), #252222),
+    url(darkgreen\ background.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 form {
-    margin-top: 150px;
-    width: 70%;
-    max-width: 600px;
+  margin-top: 150px;
+  width: 70%;
+  max-width: 600px;
 }
 
 .input-group {
-    margin-bottom: 30px;
-    position: relative;
+  margin-bottom: 30px;
+  position: relative;
 }
 
 input,
 textarea {
-    width: 100%;
-    padding: 10px;
-    outline: 0;
-    border: 2px solid rgb(63, 161, 63);
-    color: white;
-    background: transparent;
-    font-size: 15px;
+  width: 100%;
+  padding: 10px;
+  outline: 0;
+  border: 2px solid rgb(63, 161, 63);
+  color: white;
+  background: transparent;
+  font-size: 15px;
 }
 
 label {
-    height: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    padding: 10px;
-    color: white;
-    cursor: text;
-    transition: 0.2s;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 10px;
+  color: white;
+  cursor: text;
+  transition: 0.2s;
 }
 
 button {
-    padding: 10 px 0;
-    color: white;
-    outline: 0;
-    background: transparent;
-    border: 2px solid rgb(63, 161, 63);
-    width: 100%;
-    cursor: pointer;
+  padding: 10 px 0;
+  color: white;
+  outline: 0;
+  background: transparent;
+  border: 2px solid rgb(63, 161, 63);
+  width: 100%;
+  cursor: pointer;
 }
 
-input:focus~label,
-input:valid~label,
-textarea:focus~label,
-textarea:valid~label {
-    top: -35px;
-    font-size: 14px;
+input:focus ~ label,
+input:valid ~ label,
+textarea:focus ~ label,
+textarea:valid ~ label {
+  top: -35px;
+  font-size: 14px;
 }
 
 .row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .row .input-group {
-    flex-basis: 48%;
+  flex-basis: 48%;
 }
 
 /*footer-redes socioles*/
 footer {
-    background-color: rgb(63, 161, 63);
-    height: 150px;
+  background-color: rgb(63, 161, 63);
+  height: 150px;
 }
 
 .redes-sociales {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .redes-sociales h3 {
-    padding: 5px;
-    letter-spacing: 5px;
-    font-weight: 300;
+  padding: 5px;
+  letter-spacing: 5px;
+  font-weight: 300;
 }
 
 .redes-sociales i {
-    padding: 15px;
-    font-size: 30px;
+  padding: 15px;
+  font-size: 30px;
 }
