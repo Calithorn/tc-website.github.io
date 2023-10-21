@@ -8,8 +8,6 @@
 
 body {
   background: rgb(37, 35, 35);
-  background-position: center;
-  background-size: cover;
   max-height: 820px;
 }
 /*default styles*/
@@ -256,4 +254,56 @@ footer {
     width: 45%;
     height: 100%;
   }
+}
+@media only screen and (max-width: 320px) 
+{
+  body {
+    max-height: 800px;
+  }
+  header {
+    font-size: 0.7rem;
+    letter-spacing: 2px;
+    font-weight: 600;
+    height: fit-content;
+    background-color: rgb(63, 161, 63);
+  }
+  /*menu styles*/
+  .nav-bar {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: unset;
+    align-items: center;
+  }
+  header .nav-bar ul {
+    display: flex;
+  }
+  header .nav-bar ul li {
+    list-style: none;
+    margin: 0 10px;
+  }
+  header .nav-bar ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  header .nav-bar ul li a:hover {
+    color: black;
+    border-bottom: 1px solid white;
+    transition: all 1s ease;
+  }
+  .store {
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+  }
+  .store:hover {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(36, 35, 35);
+    transition: 0.6s ease;
+  }
+
+
 }
