@@ -222,7 +222,38 @@ footer {
   letter-spacing: 5px;
 }
 
-@media only screen and (min-width: 1200px) 
+@media only screen and (max-width: 992px) 
 {
- 
+  body {
+    background: rgb(37, 35, 35);
+    
+  }
+  .main-cont {
+    height: auto;
+    grid-template-rows: repeat(3, 1fr);
+    
+  }
+  .card-1 {
+    grid-column: 1 / 5;
+    grid-row: 2 / 3;
+    
+  }
+  .card-2 {
+    grid-column: 1 / 5;
+    grid-row: 1 / 2;
+    
+    display: flex;
+  }
+  .card-text-style {
+    padding: 10px;
+    margin: 5px;
+  }
+  aside {
+    grid-column: 1 / 5;
+    grid-row: 3 / 4;
+  }
+  .imgs img {
+    width: 45%;
+    height: 100%;
+  }
 }
