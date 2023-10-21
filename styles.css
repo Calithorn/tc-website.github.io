@@ -257,7 +257,7 @@ footer {
     font-size: 20px;
   }
 }
-@media only screen and (max-width: 580px) 
+@media only screen and (max-width: 680px) 
 {
   body {
     max-height: 800px;
@@ -265,6 +265,58 @@ footer {
   header {
     font-size: 0.5rem;
     letter-spacing: 2px;
+    font-weight: 400;
+    background-color: rgb(63, 161, 63);
+  }
+  img {
+    width: 40px;
+  }
+  /*menu styles*/
+  .nav-bar {
+    width: 90%;
+  }
+  .main-cont {
+    height: auto;
+    grid-template-rows: repeat(3, 1fr);
+    
+  }
+  .card-1 {
+    grid-column: 1 / 5;
+    grid-row: 2 / 3;
+    font-size: 0.7rem;
+    
+  }
+  .card-2 {
+    grid-column: 1 / 5;
+    grid-row: 1 / 2;
+    font-size: 0.7rem;  
+  }
+  .card-text-style {
+    padding: 7px;
+    margin: 2px;
+  }
+  aside {
+    grid-column: 1 / 5;
+    grid-row: 3 / 4;
+    font-size: 0.7rem;
+  }
+  .imgs img {
+    width: 45%;
+    height: 100%;
+  }
+  .redes-sociales i {
+    padding: 10px;
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 299px) 
+{
+  body {
+    max-height: 800px;
+  }
+  header {
+    font-size: 0.4rem;
+    letter-spacing: 1px;
     font-weight: 400;
     background-color: rgb(63, 161, 63);
   }
