@@ -271,41 +271,8 @@ footer {
   }
   /*menu styles*/
   .nav-bar {
-    width: 65%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: unset;
-    align-items: center;
+    width: 90%;
   }
-  header .nav-bar ul {
-    display: flex;
-  }
-  header .nav-bar ul li {
-    list-style: none;
-    margin: 0 10px;
-  }
-  header .nav-bar ul li a {
-    text-decoration: none;
-    color: white;
-  }
-  header .nav-bar ul li a:hover {
-    color: black;
-    border-bottom: 1px solid white;
-    transition: all 1s ease;
-  }
-  .store {
-    background-color: black;
-    padding: 10px;
-    border-radius: 10px;
-    margin: 0 auto;
-  }
-  .store:hover {
-    background-color: white;
-    padding: 10px;
-    border-radius: 10px;
-    color: rgb(36, 35, 35);
-    transition: 0.6s ease;
-  }
-
-
+  
+  
 }
