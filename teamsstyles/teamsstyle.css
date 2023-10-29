@@ -230,11 +230,7 @@ footer {
     max-height: 820px;
   }
   .team-title {
-    display: flex;
-    justify-content: center;
-    padding: 5px;
-    margin: 60px auto;
-    letter-spacing: 10px;
+       margin: 60px auto; 
   }
   .teams-main-cont {
     width: 80%;
