@@ -220,7 +220,7 @@ footer {
     display: block;
   }
 }
-@media only screen and (max-width: 390px) 
+@media only screen and (max-width: 391px) 
 {
   body {
     min-width: 263px;
@@ -229,10 +229,6 @@ footer {
   .teams-main-cont {
     width: 80%;
     margin: auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, 20rem);
-    gap: 30px;
-    justify-content: center;
   }
   .card-team {
     width: 200px;
@@ -243,8 +239,7 @@ footer {
     width: 100%;
     display: block;
     height: 100%;
-    margin: 10px 0;
-    border-radius: 10px;
+    
   }
   img {
     width: 30px;
