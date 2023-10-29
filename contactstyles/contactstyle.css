@@ -18,8 +18,18 @@ body {
 img {
   width: 80px;
 }
+.textbackground {
+  background-color: rgba(0, 0, 0, 0.514);
+  border-radius: 20px;
+}
+li{
+  list-style: none;
+}
 a {
   text-decoration: none;
+}
+.letterspacing {
+  letter-spacing: 5px;
 }
 
 /*header styles*/
@@ -67,6 +77,37 @@ header .nav-bar ul li a:hover {
   border-radius: 10px;
   color: rgb(36, 35, 35);
   transition: 0.6s ease;
+}
+/*responsive togglebtn*/
+.toggle-btn{
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: none;
+}
+/*end*/
+/*responsive desing dropdown + transition setup* + styles*/
+.dropdown-menu{
+  display: none;
+  position: absolute;
+  right: 2rem;
+  top: 40px;
+  height: 0;
+  width: 215px;
+  font-size: 1rem;
+  background: rgba(255, 255, 255, 0.247);
+  border-radius: 20px;
+  backdrop-filter: blur(15px);
+  overflow: hidden;
+  transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.dropdown-menu.open{
+  height: 200px;
+}
+.dropdown-menu li{
+  padding: 0.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /*header's end*/
 
@@ -159,36 +200,6 @@ footer {
 /*responsive desing mediaq*/
 @media only screen and (max-width: 992px) 
 {
-  body {
-    background: rgb(37, 35, 35);
-    
-  }
-  .main-cont {
-    height: auto;
-    grid-template-rows: repeat(3, 1fr);
-    
-  }
-  .card-1 {
-    grid-column: 1 / 5;
-    grid-row: 2 / 3;
-    
-  }
-  .card-2 {
-    grid-column: 1 / 5;
-    grid-row: 1 / 2;
-  }
-  .card-text-style {
-    padding: 10px;
-    margin: 5px;
-  }
-  aside {
-    grid-column: 1 / 5;
-    grid-row: 3 / 4;
-  }
-  .imgs img {
-    width: 45%;
-    height: 100%;
-  }
   .redes-sociales i {
     padding: 10px;
     font-size: 20px;
@@ -222,32 +233,6 @@ footer {
   .dropdown-menu{
     display: block;
   }
-
-  .main-cont {
-    height: auto;
-    grid-template-rows: repeat(3, 1fr);
-    
-  }
-  .card-1 {
-    grid-column: 1 / 5;
-    grid-row: 2 / 3;
-    font-size: 0.7rem;
-    
-  }
-  .card-2 {
-    grid-column: 1 / 5;
-    grid-row: 1 / 2;
-    font-size: 0.7rem;  
-  }
-  .card-text-style {
-    padding: 7px;
-    margin: 2px;
-  }
-  aside {
-    grid-column: 1 / 5;
-    grid-row: 3 / 4;
-    font-size: 0.7rem;
-  }
   .imgs img {
     width: 45%;
     height: 100%;
@@ -278,41 +263,12 @@ footer {
   .nav-bar nav ul{
     display: none;
   }
-  .nav-bar .toggle-btn{
+  .nav-bar.toggle-btn{
     display: block;
   }
   /*dropdown*/
   .dropdown-menu{
     display: block;
-  }
-  .main-cont {
-    height: auto;
-    grid-template-rows: repeat(3, 1fr);
-    
-  }
-  .card-1 {
-    grid-column: 1 / 5;
-    grid-row: 2 / 3;
-    font-size: 0.5rem;
-    
-  }
-  .card-2 {
-    grid-column: 1 / 5;
-    grid-row: 1 / 2;
-    font-size: 0.5rem;  
-  }
-  .card-text-style {
-    padding: 7px;
-    margin: 2px;
-  }
-  aside {
-    grid-column: 1 / 5;
-    grid-row: 3 / 4;
-    font-size: 0.5rem;
-  }
-  .imgs img {
-    width: 45%;
-    height: 100%;
   }
   .redes-sociales i {
     padding: 10px;
