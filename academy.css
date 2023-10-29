@@ -156,6 +156,11 @@ footer {
     background-color: rgb(63, 161, 63);
   }
   
+  .underconstruction-cont{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
   /*menu styles*/
   .nav-bar {
     width: 90%;
