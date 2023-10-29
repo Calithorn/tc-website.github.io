@@ -5,7 +5,6 @@
   font-family: "Bebas Neue", sans-serif;
   color: white;
 }
-
 body {
   background: url(gaming-backgrounds-in-black-green-and-darkgrey_bemP5adD_upscaled.jpg);
   background-position: center;
@@ -19,7 +18,6 @@ body {
 img {
   width: 80px;
 }
-
 a {
   text-decoration: none;
 }
@@ -32,6 +30,7 @@ header {
   height: fit-content;
   background-color: rgb(63, 161, 63);
 }
+
 /*menu styles*/
 .nav-bar {
   width: 75%;
@@ -83,18 +82,15 @@ header .nav-bar ul li a:hover {
   align-items: flex-start;
   justify-content: center;
 }
-
 form {
   margin-top: 150px;
   width: 70%;
   max-width: 600px;
 }
-
 .input-group {
   margin-bottom: 30px;
   position: relative;
 }
-
 input,
 textarea {
   width: 100%;
@@ -105,7 +101,6 @@ textarea {
   background: transparent;
   font-size: 15px;
 }
-
 label {
   height: 100%;
   position: absolute;
@@ -116,7 +111,6 @@ label {
   cursor: text;
   transition: 0.2s;
 }
-
 button {
   padding: 10 px 0;
   color: white;
@@ -126,7 +120,6 @@ button {
   width: 100%;
   cursor: pointer;
 }
-
 input:focus ~ label,
 input:valid ~ label,
 textarea:focus ~ label,
@@ -134,13 +127,11 @@ textarea:valid ~ label {
   top: -35px;
   font-size: 14px;
 }
-
 .row {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
 .row .input-group {
   flex-basis: 48%;
 }
@@ -150,20 +141,182 @@ footer {
   background-color: rgb(63, 161, 63);
   height: 120px;
 }
-
 .redes-sociales {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
 .redes-sociales h3 {
   padding: 5px;
   letter-spacing: 5px;
   font-weight: 300;
 }
-
 .redes-sociales i {
   padding: 15px;
   font-size: 1.5rem;
 }
+
+/*responsive desing mediaq*/
+@media only screen and (max-width: 992px) 
+{
+  body {
+    background: rgb(37, 35, 35);
+    
+  }
+  .main-cont {
+    height: auto;
+    grid-template-rows: repeat(3, 1fr);
+    
+  }
+  .card-1 {
+    grid-column: 1 / 5;
+    grid-row: 2 / 3;
+    
+  }
+  .card-2 {
+    grid-column: 1 / 5;
+    grid-row: 1 / 2;
+  }
+  .card-text-style {
+    padding: 10px;
+    margin: 5px;
+  }
+  aside {
+    grid-column: 1 / 5;
+    grid-row: 3 / 4;
+  }
+  .imgs img {
+    width: 45%;
+    height: 100%;
+  }
+  .redes-sociales i {
+    padding: 10px;
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 680px) 
+{
+  body {
+    max-height: 800px;
+  }
+  header {
+    font-size: 0.5rem;
+    letter-spacing: 2px;
+    font-weight: 400;
+    background-color: rgb(63, 161, 63);
+  }
+  img {
+    width: 40px;
+  }
+  /*menu styles*/
+  .nav-bar {
+    width: 90%;
+  }
+  .nav-bar nav ul{
+    display: none;
+  }
+  .nav-bar .toggle-btn{
+    display: block;
+  }
+  /*dropdown*/
+  .dropdown-menu{
+    display: block;
+  }
+
+  .main-cont {
+    height: auto;
+    grid-template-rows: repeat(3, 1fr);
+    
+  }
+  .card-1 {
+    grid-column: 1 / 5;
+    grid-row: 2 / 3;
+    font-size: 0.7rem;
+    
+  }
+  .card-2 {
+    grid-column: 1 / 5;
+    grid-row: 1 / 2;
+    font-size: 0.7rem;  
+  }
+  .card-text-style {
+    padding: 7px;
+    margin: 2px;
+  }
+  aside {
+    grid-column: 1 / 5;
+    grid-row: 3 / 4;
+    font-size: 0.7rem;
+  }
+  .imgs img {
+    width: 45%;
+    height: 100%;
+  }
+  .redes-sociales i {
+    padding: 10px;
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 299px) 
+{
+  body {
+    max-height: 800px;
+  }
+  header {
+    font-size: 0.5rem;
+    letter-spacing: 1px;
+    height: 40px;
+    position: relative;
+  }
+  img {
+    width: 30px;
+  }
+  /*menu styles*/
+  .nav-bar {
+    width: 90%;
+  }
+  .nav-bar nav ul{
+    display: none;
+  }
+  .nav-bar .toggle-btn{
+    display: block;
+  }
+  /*dropdown*/
+  .dropdown-menu{
+    display: block;
+  }
+  .main-cont {
+    height: auto;
+    grid-template-rows: repeat(3, 1fr);
+    
+  }
+  .card-1 {
+    grid-column: 1 / 5;
+    grid-row: 2 / 3;
+    font-size: 0.5rem;
+    
+  }
+  .card-2 {
+    grid-column: 1 / 5;
+    grid-row: 1 / 2;
+    font-size: 0.5rem;  
+  }
+  .card-text-style {
+    padding: 7px;
+    margin: 2px;
+  }
+  aside {
+    grid-column: 1 / 5;
+    grid-row: 3 / 4;
+    font-size: 0.5rem;
+  }
+  .imgs img {
+    width: 45%;
+    height: 100%;
+  }
+  .redes-sociales i {
+    padding: 10px;
+    font-size: 20px;
+  }
+}
+  /*end*/
