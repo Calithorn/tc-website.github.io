@@ -1,0 +1,185 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+  }
+  
+  body {
+    min-width: fit-content;
+    max-height: 800px;
+  }
+  /*default styles*/
+  img {
+    width: 80px;
+  }
+  .textbackground {
+    background-color: rgba(0, 0, 0, 0.514);
+    border-radius: 20px;
+  }
+  li{
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  .letterspacing {
+    letter-spacing: 5px;
+  }
+  /*header styles*/
+  header {
+    font-size: 1rem;
+    letter-spacing: 5px;
+    font-weight: 600;
+    height: fit-content;
+    background-color: rgb(63, 161, 63);
+  }
+  /*Navbar styles*/
+  .nav-bar {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .nav-bar ul {
+    display: flex;
+  }
+  /*responsive togglebtn*/
+  .toggle-btn{
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+  }
+  /*end*/
+  
+  /*Navbar styles*/
+  header .nav-bar ul li {
+    list-style: none;
+    margin: 0 10px;
+  }
+  header .nav-bar ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  header .nav-bar ul li a:hover {
+    color: black;
+    border-bottom: 1px solid white;
+    transition: all 1s ease;
+  }
+  .store {
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+  }
+  .store:hover {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(36, 35, 35);
+    transition: 0.6s ease;
+  }
+  /*end*/
+  
+  /*responsive desing dropdown + transition setup* + styles*/
+  .dropdown-menu{
+    display: none;
+    position: absolute;
+    right: 2rem;
+    top: 40px;
+    height: 0;
+    width: 215px;
+    font-size: 1rem;
+    background: rgba(255, 255, 255, 0.247);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    overflow: hidden;
+    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  .dropdown-menu.open{
+    height: 200px;
+  }
+  .dropdown-menu li{
+    padding: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /*header's end*/
+
+  /*academy and store under contruction page*/
+.underconstruction-cont {
+    background: black;
+    width: 100%;
+    height: 730px;
+    display: flex;
+    justify-content: center;
+    
+  }
+  .undercons-tex {
+    margin: 100px 0;
+    letter-spacing: 5px;
+  }
+  /*end*/
+
+  /*footer-redes sociales*/
+footer {
+    background-color: rgb(63, 161, 63);
+    height: 120px;
+  }
+  .redes-sociales {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .redes-sociales h3 {
+    padding: 5px;
+    letter-spacing: 5px;
+    font-weight: 300;
+  }
+  .redes-sociales i {
+    padding: 15px;
+    font-size: 1.5rem;
+  }
+  /*footer's end*/
+
+  /*responsive desing mediaq*/
+
+@media only screen and (max-width: 680px) 
+{
+    header {
+    font-size: 0.5rem;
+    letter-spacing: 2px;
+    font-weight: 400;
+    background-color: rgb(63, 161, 63);
+  }
+  
+  /*menu styles*/
+  .nav-bar {
+    width: 90%;
+  }
+  .nav-bar nav ul{
+    display: none;
+  }
+  .nav-bar .toggle-btn{
+    display: block;
+  }
+  /*dropdown*/
+  .dropdown-menu{
+    display: block;
+  }
+  .redes-sociales i {
+    padding: 10px;
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 300px)
+{
+    .underconstruction-cont{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+} 
