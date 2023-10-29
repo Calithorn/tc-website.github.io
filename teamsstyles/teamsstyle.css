@@ -222,6 +222,10 @@ footer {
 }
 @media only screen and (max-width: 299px) 
 {
+  body {
+    min-width: 550px;
+    max-height: 820px;
+  }
   img {
     width: 30px;
   }
