@@ -209,9 +209,10 @@ footer {
 {
   body {
     
-    min-width:270px;
+    min-width:263px;
     max-height: 820px;
   }
+ 
   header {
     font-size: 0.5rem;
     letter-spacing: 2px;
