@@ -247,6 +247,11 @@ footer {
   body {
     max-height: 800px;
   }
+  form {
+    margin-top: 100px;
+    width: 100%;
+    max-width: 250px;
+  }
   header {
     font-size: 0.5rem;
     letter-spacing: 1px;
