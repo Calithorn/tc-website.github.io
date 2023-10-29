@@ -229,6 +229,13 @@ footer {
     min-width: 263px;
     max-height: 820px;
   }
+  .team-title {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin: 60px auto;
+    letter-spacing: 10px;
+  }
   .teams-main-cont {
     width: 80%;
     margin: auto;
