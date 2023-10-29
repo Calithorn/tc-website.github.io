@@ -208,20 +208,20 @@ footer {
     max-height: 820px;
   }
  
-  /*menu styles*/
-  .nav-bar {
-    width: 90%;
-  }
-  .nav-bar nav ul{
-    display: none;
-  }
-  .nav-bar .toggle-btn{
-    display: block;
-  }
-  /*dropdown*/
-  .dropdown-menu{
-    display: block;
-  }
+ /*menu styles*/
+ .nav-bar {
+  width: 90%;
+}
+.nav-bar nav ul{
+  display: none;
+}
+.nav-bar .toggle-btn{
+  display: block;
+}
+/*dropdown*/
+.dropdown-menu{
+  display: block;
+}
 }
 @media only screen and (max-width: 419px) 
 {
