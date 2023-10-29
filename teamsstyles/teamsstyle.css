@@ -207,7 +207,9 @@ footer {
     min-width:263px;
     max-height: 820px;
   }
- 
+  .team-title {
+    margin: 60px auto;
+  }
  /*menu styles*/
  .nav-bar {
   width: 90%;
