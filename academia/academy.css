@@ -115,14 +115,18 @@
     width: 100%;
     height: 730px;
     display: flex;
-    justify-content: center;
-    
+    justify-content: center; 
   }
   .undercons-tex {
     margin: 100px 0;
     letter-spacing: 5px;
   }
   /*end*/
+/*Main*/
+.background{
+  background: url(image_UbERq_Qa_1697410864521_raw.jpg) center
+    center/cover;
+}
 
   /*footer-redes sociales*/
 footer {
