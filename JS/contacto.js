@@ -45,6 +45,10 @@ var htmlcontenido = `
         <textarea  id="message" name="message" required rows="8"></textarea>
       <label for="message"><i class="fa-regular fa-message"></i> Mensaje</label>
       </div>
+      <input type="hidden" name="_next" value="https://calithorn.github.io/tc-website.github.io/contact.html">
+      <input type="hidden" name="_cc" value="emmaccaar@gmail.com">
+      <input type="hidden" name="_autoresponse" value="Gracias por tu interes, Estaremos pronto en contacto.">
+      <input type="hidden" name="_template" value="table">
       <button type="submit">ENVIAR <i class="fa-regular fa-paper-plane"></i></button>
     </form>
   </div>
