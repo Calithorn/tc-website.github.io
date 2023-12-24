@@ -12,10 +12,11 @@ var htmlcontenido = `
       <li><a href="store.html"><span class="store">Tienda</span></a></li>
       <li><a href="contact.html">Contacto</a></li>
     </ul>
-    <<div class="toggle-btn">
-    <i class="fa-solid fa-bars"></i></div>
+    <div class="togglebtn">
+    <i class="fa-solid fa-bars"></i>
+    </div>
   </nav>
-  <div class="dropdown-menu">
+  <div class="dropdownmenu">
     <li><a href="teams.html">Equipo</a></li>
     <li><a href="academy.html">Academia</a></li>
     <li><a href="store.html"><span class="store">Tienda</span></a></li>
@@ -25,14 +26,14 @@ var htmlcontenido = `
 </header>
 
 <main class="underconstruction-cont">
-<!--
+
 <div class="underconstruction-cont">
   <div class="undercons-tex">
     <h2>En construcción. Pronto disponible.</h2>
   </div>
 </div>
-  -->
-<div class="container row">
+<!--
+<div class="container row mt-5">
   <div class="mt-5 col-lg-4">
     <div class="jumbotron background">
       <h1 class="display-4">Aim</h1>
@@ -67,7 +68,7 @@ var htmlcontenido = `
     </div>
   </div>
 </div>
-
+-->
 
 
 </main>
@@ -99,9 +100,9 @@ var htmlcontenido = `
 content.innerHTML = htmlcontenido;
 
 //toggle btn script
-const toggleBtn = document.querySelector(".toggle-btn");
-const toggleBtnIcon = document.querySelector(".toggle-btn i");
-const dropDownMenu = document.querySelector(".dropdown-menu");
+const toggleBtn = document.querySelector(".togglebtn");
+const toggleBtnIcon = document.querySelector(".togglebtn i");
+const dropDownMenu = document.querySelector(".dropdownmenu");
 
 toggleBtn.onclick = function () {
   dropDownMenu.classList.toggle("open");
