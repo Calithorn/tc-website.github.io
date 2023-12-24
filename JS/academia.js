@@ -1,6 +1,7 @@
-let content = document.getElementById ("content")
+let content = document.getElementById("content");
 
 var htmlcontenido = `
+
 <header>
 <div class="nav-bar">
   <a href="index.html"><img src="images/TC Logo Negro.png" alt="Black logo" /></a>
@@ -8,21 +9,16 @@ var htmlcontenido = `
     <ul>
       <li><a href="teams.html">Equipo</a></li>
       <li><a href="academy.html">Academia</a></li>
-      <li>
-        <a href="store.html"><span class="store">Tienda</span></a>
-      </li>
+      <li><a href="store.html"><span class="store">Tienda</span></a></li>
       <li><a href="contact.html">Contacto</a></li>
     </ul>
-    <div class="toggle-btn">
-      <i class="fa-solid fa-bars"></i>
-    </div>
+    <<div class="toggle-btn">
+    <i class="fa-solid fa-bars"></i></div>
   </nav>
   <div class="dropdown-menu">
     <li><a href="teams.html">Equipo</a></li>
     <li><a href="academy.html">Academia</a></li>
-    <li>
-      <a href="store.html"><span class="store">Tienda</span></a>
-    </li>
+    <li><a href="store.html"><span class="store">Tienda</span></a></li>
     <li><a href="contact.html">Contacto</a></li>
   </div>
 </div>
@@ -99,19 +95,17 @@ var htmlcontenido = `
 </footer>
 
 
-`
-content.innerHTML = htmlcontenido
+`;
+content.innerHTML = htmlcontenido;
 
 //toggle btn script
 const toggleBtn = document.querySelector(".toggle-btn");
-    const toggleBtnIcon = document.querySelector(".toggle-btn i");
-    const dropDownMenu = document.querySelector(".dropdown-menu");
+const toggleBtnIcon = document.querySelector(".toggle-btn i");
+const dropDownMenu = document.querySelector(".dropdown-menu");
 
-    toggleBtn.onclick = function () {
-      dropDownMenu.classList.toggle("open");
-      const isOpen = dropDownMenu.classList.contains("open");
+toggleBtn.onclick = function () {
+  dropDownMenu.classList.toggle("open");
+  const isOpen = dropDownMenu.classList.contains("open");
 
-      toggleBtnIcon.classList = isOpen
-        ? "fa-solid fa-xmark"
-        : "fa-solid fa-bars";
-    };
+  toggleBtnIcon.classList = isOpen ? "fa-solid fa-xmark" : "fa-solid fa-bars";
+};
